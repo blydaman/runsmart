@@ -1,13 +1,41 @@
 @media (max-width: 991px) {
-    
-}
-@media (max-width: 767px) {
     .header {
-        width: 740px;
+        width: 90%;
+        margin: 0 5% 0 5%;
     }
     .promo {
         &__wrapper {
-        margin-right: 50px;
+            align-items:center;
+            margin-right: 0;
+        }
+    }
+    .container {
+        padding: 0;
+    }
+    .consultation {
+        .title {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+            margin-top: 80px;
+        }
+        .feed-form {
+            margin-top: 80px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        width: 90%;
+    }
+    .promo {
+        &__wrapper {
+        align-items: center;
+        
         }
     }
     .advant {
